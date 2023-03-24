@@ -5,20 +5,12 @@ To perform the color conversion between RGB, BGR, HSV, and YCbCr color models.
 ## Software Required:
 Anaconda - Python 3.7
 ## Algorithm:
-### Step1:
-<br>
 
-### Step2:
-<br>
-
-### Step3:
-<br>
-
-### Step4:
-<br>
-
-### Step5:
-<br>
+## Step1: Import cv2 and save and image as filename.jpg
+## Step2: Use imread(filename, flags) to read the file
+## Step3: Use cv2.cvtColor(src, code, dst, dstCn) to convert an image from one color space to another.
+## Step4: Split and merge the image using cv2.split and cv2.merge commands.
+## Step5: End the program and close the output image windows.
 
 ## Program:
 ```
@@ -131,25 +123,77 @@ cv2.destoryAllWindows()
 
 ```
 ## Output:
-### i) BGR and RGB to HSV and GRAY
-![image](https://user-images.githubusercontent.com/94165326/227571695-8b49d236-113c-4120-b011-a3f601562620.png)
+### i) Original image
+
+![image](https://user-images.githubusercontent.com/94165326/227579701-17eb3e1c-70dc-4bf1-88ce-d20f2093282d.png)
 
 
-### ii) HSV to RGB and BGR
-<br>
-<br>
+### ii) Convert BGR to HSV 
 
-### iii) RGB and BGR to YCrCb
-<br>
-<br>
+![image](https://user-images.githubusercontent.com/94165326/227580129-e120cb22-79da-4fec-a0ef-455cdfc168b9.png)
 
-### iv) Split and merge RGB Image
-<br>
-<br>
 
-### v) Split and merge HSV Image
-<br>
-<br>
+### iii) Convert BGR to GRAY
+
+![image](https://user-images.githubusercontent.com/94165326/227580361-b99e17b6-ce42-4ee1-9b7b-dc73ac34a096.png)
+
+
+
+### iV) Convert RGB to HSV
+
+![image](https://user-images.githubusercontent.com/94165326/227580648-a575270a-f121-4b8f-b2f8-c79f280e72f7.png)
+
+
+
+### V) Convert RGB to GRAY
+
+![image](https://user-images.githubusercontent.com/94165326/227580848-f0dd4088-7fd4-4266-a1b5-42b008e1328f.png)
+
+
+### Vi) Convert HSV to RGB
+
+![image](https://user-images.githubusercontent.com/94165326/227581157-3ac29c81-ee82-4bac-bff0-ecf63e86049c.png)
+
+
+
+### vii) Convert HSV to BGR
+
+![image](https://user-images.githubusercontent.com/94165326/227581424-081bb50d-db6e-47a8-b6e5-df15ad5bdf36.png)
+
+
+### viii) Convert RGB to YCrCb
+
+![image](https://user-images.githubusercontent.com/94165326/227581656-807a87dc-702e-4f31-8685-13a726ee9eb5.png)
+
+
+
+### ix) Convert BGR to YCrCb
+
+![image](https://user-images.githubusercontent.com/94165326/227581900-b36d672d-6565-4333-85ea-0641acf7a4d0.png)
+
+
+
+### x) Split RGB Image
+![image](https://user-images.githubusercontent.com/94165326/227584652-ff6ab2c3-a8dd-4095-bd46-af06ec47d8ff.png)
+
+
+
+### xi) Merge RGB Image
+
+![image](https://user-images.githubusercontent.com/94165326/227585080-08fa15f7-e0e2-4b2c-b8b9-0d35ac7b3e38.png)
+
+
+
+### xii) Split HSV Image
+
+![image](https://user-images.githubusercontent.com/94165326/227585746-7525d4a5-1fe6-491c-9e21-0a5f19400d2e.png)
+
+
+
+### xiii) Merge HSV Image
+
+![image](https://user-images.githubusercontent.com/94165326/227585876-a11f2128-adc1-415a-abce-cb23c0ebb613.png)
+
 
 
 ## Result:
